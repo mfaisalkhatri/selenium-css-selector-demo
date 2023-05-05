@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Working with CSS Selectors in Selenium">
+    <test name="Selenium Playground Tests">
+        <parameter name="browser" value="remote_chrome"/>
+        <classes>
+            <class name="io.github.mfaisalkhatri.tests.SeleniumPlaygroundTests"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
