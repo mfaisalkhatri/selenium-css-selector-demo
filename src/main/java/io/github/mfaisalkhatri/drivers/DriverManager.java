@@ -100,7 +100,7 @@ public class DriverManager {
         LOG.info("Setting up Firefox Driver....");
         final boolean isHeadless = Boolean.parseBoolean(Objects.requireNonNullElse(System.getProperty("headless"), "true"));
         final FirefoxOptions options = new FirefoxOptions();
-        options.addArguments("--remote-allow-origins=*");
+        //options.addArguments("--remote-allow-origins=*");
         if (isHeadless) {
             options.addArguments("--headless");
         }
